@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "121997422841",
+    "project_id": "bljrflutter",
+    "storage_bucket": "bljrflutter.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:121997422841:android:084908b1f38935425f3228",
+        "android_client_info": {
+          "package_name": "com.example.bncc_final_project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgC8-lGZbpBGSf5VfrP4C2JIaoAoFSDOk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
