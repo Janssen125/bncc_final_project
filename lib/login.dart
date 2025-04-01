@@ -1,4 +1,4 @@
-import 'package:bncc_final_project/home.dart';
+import 'package:bncc_final_project/counter.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -59,7 +59,7 @@ class _LoginPageState extends State<LoginPage> {
       Navigator.pushReplacement(
         context,
         MaterialPageRoute(
-          builder: (context) => const HomePage(),
+          builder: (context) => const CounterPage(),
         ),
       );
     } on FirebaseAuthException catch (e) {
